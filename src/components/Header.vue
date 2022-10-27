@@ -37,7 +37,7 @@ window.addEventListener(
           class="text-white cursor-pointer"
           :class="{change_color : indexY}"
         >
-          <router-link to="lastchanetobuy">COLLECTION</router-link>
+          <router-link to="/bestsellers">COLLECTION</router-link>
         </span>
         <span
           class="text-white cursor-pointer"

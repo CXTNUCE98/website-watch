@@ -13,6 +13,6 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/assets/fakeData/product.js", "src/assets/fakeData/product.js"],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/assets/fakeData/product.js", "src/assets/fakeData/product.js", "src/main.ts", "src/main.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

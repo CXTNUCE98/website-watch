@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/pages/Home.vue'
-import BestSellers from '../components/BestSelllers.vue'
-import LastChaneToBuy from '../components/BestSelllers.vue'
 import Product from '../views/pages/Product.vue'
+import BestSellers from '../components/BestSelllers.vue'
 
 export const router = createRouter({
     history: createWebHistory(),
@@ -14,6 +13,10 @@ export const router = createRouter({
             {
               path: 'product',
               component: Product,
+            },
+            {
+              path: 'bestsellers',
+              component: BestSellers,
             }
           ]
         }

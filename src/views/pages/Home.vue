@@ -15,6 +15,7 @@ import ShopAddress from '../../components/ShopAddress.vue';
 
 <template>
   <Header />
+  <router-view />
   <NewArrival />
   <BestSelllers />
   <LastChaneToBuy />
@@ -22,7 +23,6 @@ import ShopAddress from '../../components/ShopAddress.vue';
   <Feedback />
   <ShopAddress />
   <Footer />
-  <router-view />
 </template>
 
 <style scoped></style>
