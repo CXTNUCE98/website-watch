@@ -16,12 +16,12 @@ import ShopAddress from '../../components/ShopAddress.vue';
 <template>
   <Header />
   <router-view />
-  <NewArrival />
+  <!-- <NewArrival />
   <BestSelllers />
   <LastChaneToBuy />
   <Banner />
   <Feedback />
-  <ShopAddress />
+  <ShopAddress /> -->
   <Footer />
 </template>
 
